@@ -52,16 +52,16 @@ a.button {
     color: #333333;
     text-decoration: none;
     padding: 15px;
-    border: 0.5px solid #bdbdbd; /* Border hitam */
+    border: 0.5px solid #bdbdbd;
     border-radius: 25px;
     font-size: 14px;
     transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    display: flex; /* Mengubah menjadi block untuk lebar 100% */
+    display: flex; 
     align-items: center;
     justify-content: center;
-    max-width: 100%; /* Maksimum lebar tombol 100% dari kontainer */
-    width: calc(100% - 40px); /* Lebar tombol dikurangi jarak 20px dari kiri dan kanan */
-    margin: 0 auto 10px; /* Mengatur margin otomatis di kanan kiri dan margin bawah */
+    max-width: 100%;
+    width: calc(100% - 40px); 
+    margin: 0 auto 10px; 
     position: relative;
     user-select: none;
 }
@@ -72,19 +72,18 @@ a.button {
     }
 
     .share-profile {
-        top: 120px; /* Adjusted position for smaller screens */
+        top: 120px; 
         right: 10px; 
     }
 }
 .button-container a.button {
-    position: relative; /* Make sure position is relative to contain the icon properly */
-}
+    position: relative; 
 
 a.button .share-icon {
-    position: absolute; /* Absolute position to the right */
-    top: 55%; /* Space between dots and button text */
-    right: 20px; /* Position the dots 20px from the right edge */
-    transform: translateY(-50%); /* Adjust position to exactly center the dots vertically */
+    position: absolute; 
+    top: 55%; 
+    right: 20px; 
+    transform: translateY(-50%);
 }
 
 a.button:hover {
@@ -113,11 +112,11 @@ a.button:hover {
 }
 
 .share-profile:hover {
-    background-color: rgba(26, 26, 26, 0.25); /* bg-[#1a1a1a] dengan opacity 25% */
+    background-color: rgba(26, 26, 26, 0.25); 
 }
 
 .share-profile:active {
-    background-color: #808080; /* warna saat ditekan */
+    background-color: #808080;
 }
 
 .share-profile:focus {
