@@ -82,7 +82,7 @@ a.button {
 a.button .share-icon {
     position: absolute; 
     top: 55%; 
-    right: 20px; 
+    right: 10px; 
     transform: translateY(-50%);
 }
 
